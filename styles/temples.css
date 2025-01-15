@@ -1,0 +1,94 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 1.5em;
+  }
+  
+  /* Navigation styles */
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  #hamburger {
+    display: none;
+  }
+  
+  /* Main content layout */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .temples-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+  }
+  
+  figcaption {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #3a3a3a;
+    color: white;
+    margin-top: 30px;
+  }
+  
+  /* Media Query for larger screens (temples-large.css) */
+  @media screen and (min-width: 768px) {
+    nav ul {
+      justify-content: space-around;
+    }
+  
+    .temples-gallery {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
