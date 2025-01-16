@@ -7,16 +7,16 @@
   <meta name="description" content="Dynamic Web Fundamentals project for Brandon Mount">
   <meta name="author" content="Brandon Mount">
   
-  <link rel="stylesheet" href="temples.css">
-  <link rel="stylesheet" href="temples-large.css">
-  <script defer src="temples.js"></script>
+  <link rel="stylesheet" href="styles/temples.css">
+  <link rel="stylesheet" href="styles/temples-large.css" media="screen and (min-width: 800px)">
+  <script scr="script/temples.js" defer></script>
 </head>
 <body>
 
   <header>
-    <h1>Temples of the World</h1>
+    <h1>Temples from the Church of Jesus Christ of Latter Day Saints</h1>
     <nav>
-      <button id="hamburger">&#9776;</button>
+      <button id="hamburger" aria-controls="nav-menu" aria-expanded="false">&#9776;</button>
       <ul id="nav-menu">
         <li><a href="#home">Home</a></li>
         <li><a href="#old">Old</a></li>
@@ -67,8 +67,6 @@
         <img src="images/placehorder-temple.jpg" alt="Temple Image">
         <figcaption>LDS temple</figcaption>
       </figure>
-     
-      <!-- Repeat the <figure> for a total of at least 9 images -->
     </section>
   </main>
 
