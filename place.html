@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorado, USA</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Colorado, USA</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/colorado.webp" media="(min-width: 1024px)">
+                <source srcset="images/colorado.webp" media="(min-width: 768px)">
+                <img src="images/colorado.webp" alt="Scenic view of Colorado, USA">
+            </picture>
+
+            <div class="data">
+                <h2>Data</h2>
+                <ul>
+                    <li><strong>Area:</strong> 269,837 sq km</li>
+                    <li><strong>Population:</strong> 5,812,069</li>
+                    <li><strong>Capital:</strong> Denver</li>
+                    <li><strong>Languages:</strong> English</li>
+                    <li><strong>Currency:</strong> US Dollar (USD)</li>
+                    <li><strong>Time Zone:</strong> UTC-7 (MST)</li>
+                    <li><strong>Calling Code:</strong> +1</li>
+                    <li><strong>Internet TLD:</strong> .us</li>
+                </ul>
+            </div>
+
+            <div class="weather">
+                <h2>Weather <span class="weather-icon">⛅</span></h2>
+                <p><strong>Temperature:</strong> <span id="temperature">5</span> °C</p>
+                <p><strong>Conditions:</strong> Partly Cloudy</p>
+                <p><strong>Wind:</strong> <span id="wind-speed">15</span> km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="wind-chill">-1</span> °C</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ✨ Colorado Weather Info ✨ USA</p>
+        <p>Last Modification: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>
+
