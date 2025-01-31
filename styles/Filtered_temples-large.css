@@ -1,0 +1,25 @@
+/* Header */
+header h1 {
+    font-size: 2em;
+  }
+  
+  /* Navigation */
+  #hamburger {
+    display: none; /* Hide hamburger in larger views */
+  }
+  
+  /* Main content layout */
+  main {
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  
+  .temples-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    font-size: 1.2em;
+  }
