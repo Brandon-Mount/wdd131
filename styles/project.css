@@ -1,0 +1,13 @@
+body {
+    background-color: #F5F5DC;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster', cursive;
+    color: #FFA500;
+}
+
+p {
+    color: #333;
+}
