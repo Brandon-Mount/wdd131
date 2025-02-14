@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavorful Creations - Recipes</title>
+    <link rel="stylesheet" href="styles/project.css">
+    <script defer src="scripts/project.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Flavorful Creations</h1>
+        <nav>
+            <ul>
+                <li><a href="project.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="tools.html">Cooking Tools</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="recipes">
+            <h2>Our Delicious Recipes</h2>
+            <label for="filter-options">Filter by category:</label>
+            <select id="filter-options">
+                <option value="All">All</option>
+                <option value="Dinner">Dinner</option>
+                <option value="Dessert">Dessert</option>
+                <option value="Lunch">Lunch</option>
+            </select>
+            <div id="recipe-list" class="recipe-list">
+                <!-- Recipes will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Flavorful Creations. All rights reserved.</p>
+    </footer>
+</body>
+</html>
